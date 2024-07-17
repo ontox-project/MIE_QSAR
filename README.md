@@ -44,7 +44,7 @@ xgboost==2.1.0
 
 ### SETTING PREFERENCES
 1. **Load input data**
-a. Load the data to predict in .xlsx format in the metanode "Select data to predict". The file should include columns with the SMILES list ('SMILES') and the identifiers ('ID'). The coulmns should include headers.
+a. Load the data to predict in .txt, .smi or .csv format in the metanode "Select data to predict". The file should include columns with the SMILES list ('SMILES') and the identifiers ('ID'). The coulmns should include headers.
 b. Specify the ID and SMILES columns from the metanode "Select columns" metanode.
 
 3. **Calculate descriptors**
