@@ -44,16 +44,16 @@ xgboost==2.1.0
 
 ### SETTING PREFERENCES
 1. **Load input data**
-a. Load the data to predict in .txt, .smi or .csv format in the metanode "Select data to predict". The file should include columns with the SMILES list ('SMILES') and the identifiers ('ID'). The coulmns should include headers.
-b. Specify the ID and SMILES columns from the metanode "Select columns" metanode.
+- Load the data to predict in .txt, .smi or .csv format in the metanode "Select data to predict". The file should include columns with the SMILES list ('SMILES') and the identifiers ('ID'). The coulmns should include headers.
+- Specify the ID and SMILES columns from the metanode "Select columns" metanode.
 
-3. **Calculate descriptors**
-c. Dragon descriptors: Specify if a Dragon licence is available in the corresponding metanode. If yes, specify the location of the DRAGON executable (usually C:\Program Files (x86)\Dragon 7\dragon7shell.exe).
-d. CDDD: Specify the column including the smiles from the drop-down menu and the location of the cddd python environment previously created as explained in in https://github.com/jrwnter/cddd
+2. **Calculate descriptors**
+- Dragon descriptors: Specify if a Dragon licence is available in the corresponding metanode. If yes, specify the location of the DRAGON executable (usually C:\Program Files (x86)\Dragon 7\dragon7shell.exe).
+- CDDD: Specify the column including the smiles from the drop-down menu and the location of the cddd python environment previously created as explained in in https://github.com/jrwnter/cddd
 
-5. **Run models**
-a. Specify the python environments previously creates (by default is mie_knime_env 
-b. Specify if DRAGON models should be used. If the user does not have neither a DRAGON licence or precalculated descriptors, this option should be not active.
+3. **Run models**
+- Specify the python environments previously creates (by default is mie_knime_env 
+- Specify if DRAGON models should be used. If the user does not have neither a DRAGON licence or precalculated descriptors, this option should be not active.
 
 ## REFERENCE
 Further details on the algorithms and on the statistical performance of models can be found in the reference pubblication:
