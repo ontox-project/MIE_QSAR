@@ -27,6 +27,11 @@ Various independent variables, machine learning methods, and associated paramete
 
 ## HOW TO USE THE MODELS
 
+### KNIME WORKFLOW
+Two KNIME workflow are provided in the repository:
+1. MIE_QSAR_WF_17012024.knwf: this workflow implements models based on DRAGON, fingerprints and cddd descriptors as described in the reference manuscript.
+2. MIE_QSAR_WF_19012025_cddd.knwf: this workflow implements models base only on cddd descriptors. This workflow can be used if the user does not have a DRAGON licence and wish to perform prediction for all the target proteins. Performance of these models may slightly change with respect of data reported in the reference manuscript.
+   
 ### PYTHON ENVIRONMENTS INSTALLATION
 1. Python 3 should be installed.
 2. CDDD should be installed following the instruction in https://github.com/jrwnter/cddd
