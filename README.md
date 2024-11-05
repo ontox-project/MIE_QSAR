@@ -63,7 +63,7 @@ xgboost==2.1.0
 ## REFERENCE
 Further details on the algorithms and on the statistical performance of models can be found in the reference pubblication:
 
-*Gadaleta D, Garcia de Lomana M, Serrano Candelas E, Ortega Vallbona R, Gozalbes R, Roncaglioni A, Benfenati E. In silico Modeling of Bioactivity toward Proteins associated to Molecular Initiating Events of Organ-Specific Toxicity Using Quantitative Structure-Activity Relationships. Submitted manuscript.*
+*Gadaleta, D., Garcia de Lomana, M., Serrano-Candelas, E. et al. Quantitative structure–activity relationships of chemical bioactivity toward proteins associated with molecular initiating events of organ-specific toxicity. J Cheminform 16, 122 (2024). https://doi.org/10.1186/s13321-024-00917-x*
 
 ## CONTACT
 Domenico Gadaleta, PhD
